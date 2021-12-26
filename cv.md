@@ -1,3 +1,4 @@
+![Avatar](https://avatars.githubusercontent.com/u/52669128?s=150)
 # Alexandr Kirichenko
 
 ___
