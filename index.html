@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CV Alexandr Kirichenko</title>
   <link rel="stylesheet" href="style.css">
@@ -35,8 +34,8 @@
   <main class="page">
     <section id="about" class="about">
       <img src="https://avatars.githubusercontent.com/u/52669128" alt="Profile photo" class="about__avatar ibg">
-      <h1>Hello! My name is Alexandr and i am junior full stack web developer.</h1>
-      <p>Prolific, full stack web developer with a passion for coding!Passionate about building web applications.</p>
+      <h1>Hello! My name is Alexandr and i am junior frontend developer.</h1>
+      <p>Prolific, frontend developer with a passion for coding! Passionate about building web applications.</p>
       <p class="about__contacts">
         <a href="https://www.linkedin.com/in/alexanderkirichenko/">Linkedin</a> /
         <a href="#">Facebook</a> /
@@ -77,12 +76,10 @@
     <section>
       <h3 class="title">Code examples</h3>
       <pre><code>
-          import { useEffect } from "react";
-
-          const useOutsideClick = (ref: any, callback: any) => {
+          const useOutsideClick = (ref, callback) => {
 
            useEffect(() => {
-              const handleClick = (e: any) => {
+              const handleClick = (e) => {
                  if (!ref.current || ref.current.contains(e.target)) {
                     return;
                  }
@@ -96,8 +93,6 @@
               };
            }, [ref, callback])
           };
-
-          export default useOutsideClick;
         </code></pre>
     </section>
     <section id="experience">
